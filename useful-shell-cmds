@@ -1,3 +1,8 @@
+# to get info on a file, displays the header info of a file
+file FILENAME.py
+# output:
+FILENAME.py: a /bin/python3 script text executable, ASCII text
+
 -web.external-url=http://myserver
 
 ./alertmanager -notification.smtp.smarthost localhost:25 -config.file alertmanager.conf
