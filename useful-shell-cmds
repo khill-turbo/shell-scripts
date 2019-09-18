@@ -1,3 +1,14 @@
+zip & unzip
+gzip & gunzip
+
+tar cfv create-this-file.tar dir-to-compress
+&
+tar -xfv file-to-untar.tar
+
+tar cfvz create-this-file.tgz dir-to-compress
+&
+tar -xfv file-to-untgz.tgz
+
 # to get info on a file, displays the header info of a file
 file FILENAME.py
 # output:
