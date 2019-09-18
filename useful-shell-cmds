@@ -19,11 +19,11 @@ FILENAME.py: a /bin/python3 script text executable, ASCII text
 ./alertmanager -notification.smtp.smarthost localhost:25 -config.file alertmanager.conf
 ./alertmanager -notification.smtp.smarthost 127.0.0.1:25 -config.file alertmanager.conf
 
-You'll generally want an alert on up == 0 and depending on your setup possibly also absent(up).
+#You'll generally want an alert on up == 0 and depending on your setup possibly also absent(up).
 
 tar cvf /tmp/TAR-FILENAME.tar DIR-NAME
 
-If you just want to build PRs, set refspec to 
+#If you just want to build PRs, set refspec to 
 +refs/pull/${ghprbPullId}/*:refs/remotes/origin/pr/${ghprbPullId}/*
 
 # gives cpu usage
