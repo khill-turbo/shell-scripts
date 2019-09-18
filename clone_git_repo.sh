@@ -52,7 +52,7 @@ git branch
 cd $HOME_DIR/$MOD_REPO/$INNER_DIR
 pwd
 # Run script to edit $FILE_NAME
-python $HOME_DIR/yml_parser.py
+python https://github.com/khill-turbo/python-fun/blob/master/regex-dtr-artifactory.py
 cat $FILE_NAME
 git status
 
