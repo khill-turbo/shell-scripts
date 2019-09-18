@@ -13,8 +13,13 @@ If you just want to build PRs, set refspec to
 # gives cpu usage
 cat /proc/cpuinfo
 
-#gives memory usage
+# gives memory usage
 cat /proc/meminfo
+
+# display cpu info
+lscpu
+or
+sudo lshw | grep -i cpu
 
 https://linuxconfig.org/learning-linux-commands-sed
 
