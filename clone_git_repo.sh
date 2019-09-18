@@ -1,4 +1,4 @@
-# Modify file using python script https://github.com/myrepo/blob/master/yml_parser.py
+# Modify file using python script https://github.com/khill-turbo/python-fun/blob/master/regex-dtr-artifactory.py
 # Use hub to create PR https://hub.github.com/
 
 #!/bin/bash
